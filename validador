@@ -3,7 +3,7 @@ jQuery(function ($) {
     var valorx = event.target.value;
     console.log("valor", valorx);
 
-    if (event.shiftKey == true) {
+    if (event.shiftKey == true) { 
       event.preventDefault();
     }
 
